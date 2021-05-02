@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Product Sale Website
+        </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="Product.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="product-content-body">
+           <section>
+                <div class="search-section">
+                    <div class="container-fluid">
+                        <div class="navigation-menu check-floats">
+                            <nav class="navigation-bar">
+                                <div class="brand-name">
+                                    <a href="#" target="blank" class="website-brand">
+                                        <img src="cerato.jpeg" class="brand-img"/>
+                                    </a>
+                                </div>
+                                <div class="navigation-links-info">
+                                    <ul class="check-floats">
+                                        <li class="navbar-link">
+                                            <div class="dropdown">
+                                                <button class="dropbtn" onclick="myFunction()">HOME
+                                                  <i class="fa fa-caret-down"></i>
+                                                </button>
+                                                <div class="dropdown-content" id="myDropdown">
+                                                  <a href="#">Link 1</a>
+                                                  <a href="#">Link 2</a>
+                                                  <a href="#">Link 3</a>
+                                                </div>
+                                                </div> 
+                                        </li>
+                                        <li class="navbar-link">
+                                            <div class="dropdown">
+                                                <button class="dropbtn" onclick="myFunction()">SHOP
+                                                  <i class="fa fa-caret-down"></i>
+                                                </button>
+                                                <div class="dropdown-content" id="myDropdown1">
+                                                  <a href="#">Link 1</a>
+                                                  <a href="#">Link 2</a>
+                                                  <a href="#">Link 3</a>
+                                                </div>
+                                                </div> 
+                                        </li>
+                                        <li class="navbar-link">
+                                            <button class="dropbtn">BLOG</button>
+                                        </li>
+                                        <li class="navbar-link">
+                                            <div class="dropdown">
+                                                <button class="dropbtn" onclick="myFunction()">PAGES
+                                                  <i class="fa fa-caret-down"></i>
+                                                </button>
+                                                <div class="dropdown-content" id="myDropdown2">
+                                                  <a href="#">Link 1</a>
+                                                  <a href="#">Link 2</a>
+                                                  <a href="#">Link 3</a>
+                                                </div>
+                                                </div> 
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="navigation-icons">
+                                    <ul class="review-links check-floats">
+                                        <li class="review-icon"><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                        <li class="review-icon"><a href="#"><img src="heart-1.svg"/></a></li>
+                                        <li class="review-icon"><a href="#"><img src="bag-dash .svg"/></a><span class="price"><b>$0.00</b></span></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+           </section>
+           <section class="main-body">
+               <div class="check-floats main-content container-big">
+                   <section class="product-filter-area">
+                       <div class="filter-area-content">
+                           <div class="filer-area-heading">
+                               <h3 class="product-filter">
+                                   CLEVER WOOCOMMERCE PRODUCT FILTER
+                               </h3>
+                           </div>
+                           <div class="product-categories-area">
+                               <div class="categories-heading">
+                                   <h3 class="product-categories-heading">
+                                       Product Categories
+                                   </h3>
+                               </div>
+                               <div class="categories-content">
+                                    <form>
+                                        <input type="radio"  name="gender" value="male">
+                                        <label for="male">Male</label><br>
+                                        <input type="radio"  name="gender" value="female">
+                                        <label for="female">Female</label><br>
+                                        <input type="radio"  name="gender" value="other">
+                                        <label for="other">Other</label><br>
+                                        <input type="radio"  name="gender" value="other">
+                                        <label for="other">Other</label><br>
+                                        <input type="radio"  name="gender" value="other">
+                                        <label for="other">Other</label><br>
+                                        <input type="radio"  name="gender" value="other">
+                                        <label for="other">Other</label><br>
+                                        <input type="radio"  name="gender" value="other">
+                                        <label for="other">Other</label><br>
+                                        <input type="radio"  name="gender" value="other">
+                                        <label for="other">Other</label><br>
+                                        <input type="radio"  name="gender" value="other">
+                                        <label for="other">Other</label>
+                                    </form> 
+                               </div>
+                           </div>
+                           <div class="price-filter">
+                               <div class="price-filter-heading">
+                                   <h3 class="price-heading">Price Filter</h3>
+                               </div>
+                               <div class="">
+                                <input type="range"  name="price" value="price"><br>
+                                <label for="other">Price $5 - $12,000</label>
+                               </div>
+                           </div>
+                           <div class="color-filter">
+                               <div class="color-filter-heading">
+                                   <h3 class="color-heading">
+                                       Color Filter
+                                   </h3>
+                                   <form>
+                                        <input type="radio"  name="gender" value="other">
+                                        <label for="other">Blue</label><br>
+                                        <input type="radio"  name="gender" value="other">
+                                        <label for="other">Black</label><br>
+                                        <input type="radio"  name="gender" value="other">
+                                        <label for="other">Green</label><br>
+                                        <input type="radio"  name="gender" value="other">
+                                        <label for="other">Pink</label>
+                                   </form> 
+                               </div>
+                           </div>
+                       </div>
+                   </section>
+                   <section class="product-view-area">
+                       <div class="product-view-content">
+                           <div class="product-website-img-div">
+                               <img src="watch.jpg" class="product-website-img"/>
+                               <p class="shopping-now"> Create Shopping Now</p>
+                           </div>
+                           <div class="product-selection-area">
+                               <div class="">
+
+                               </div>
+                               <div class="product-img-section">
+                                    <div class="product-offer check-floats">
+                                        <div class="product-view">
+                                            <div class="offer-images">
+                                            <img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/8.4.jpg?v=1592041611" class="product-img-link"/>
+                                            </div>
+                                            <div class="hide-offer-product-content">
+                                            <p class="product-para">
+                                                Sale
+                                            </p>
+                                            <h4 class="product-head">
+                                                Quick View
+                                            </h4>
+                                            <ul class="product-menu">
+                                                <li><a href="#"><img src="bag-dash .svg"/></a></li><br>
+                                                <li><a href="#"><img src="heart-1.svg"/></a></li><br>
+                                                <li><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                            </ul>
+                                            </div>
+                                            <div class="show-offer-product-content">
+                                            <p class="second-para">
+                                                Eyeshadow T20 coiger
+                                            </p>
+                                            <p class="rate">
+                                                $30.00
+                                            </p>
+                                            </div>
+                                        </div>
+                                        <div class="product-view">
+                                            <div class="offer-images">
+                                            <img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/8.4.jpg?v=1592041611" class="product-img-link"/>
+                                            </div>
+                                            <div class="hide-offer-product-content">
+                                            <p class="product-para">
+                                                Sale
+                                            </p>
+                                            <h4 class="product-head">
+                                                Quick View
+                                            </h4>
+                                            <ul class="product-menu">
+                                                <li><a href="#"><img src="bag-dash .svg"/></a></li><br>
+                                                <li><a href="#"><img src="heart-1.svg"/></a></li><br>
+                                                <li><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                            </ul>
+                                            </div>
+                                            <div class="show-offer-product-content">
+                                            <p class="second-para">
+                                                Eyeshadow T20 coiger
+                                            </p>
+                                            <p class="rate">
+                                                $30.00
+                                            </p>
+                                            </div>
+                                        </div>
+                                        <div class="product-view">
+                                            <div class="offer-images">
+                                            <img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/8.4.jpg?v=1592041611" class="product-img-link"/>
+                                            </div>
+                                            <div class="hide-offer-product-content">
+                                            <p class="product-para">
+                                                Sale
+                                            </p>
+                                            <h4 class="product-head">
+                                                Quick View
+                                            </h4>
+                                            <ul class="product-menu">
+                                                <li><a href="#"><img src="bag-dash .svg"/></a></li><br>
+                                                <li><a href="#"><img src="heart-1.svg"/></a></li><br>
+                                                <li><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                            </ul>
+                                            </div>
+                                            <div class="show-offer-product-content">
+                                            <p class="second-para">
+                                                Eyeshadow T20 coiger
+                                            </p>
+                                            <p class="rate">
+                                                $30.00
+                                            </p>
+                                            </div>
+                                        </div>
+                                        <div class="product-view">
+                                            <div class="offer-images">
+                                            <img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/8.4.jpg?v=1592041611" class="product-img-link"/>
+                                            </div>
+                                            <div class="hide-offer-product-content">
+                                            <p class="product-para">
+                                                Sale
+                                            </p>
+                                            <h4 class="product-head">
+                                                Quick View
+                                            </h4>
+                                            <ul class="product-menu">
+                                                <li><a href="#"><img src="bag-dash .svg"/></a></li><br>
+                                                <li><a href="#"><img src="heart-1.svg"/></a></li><br>
+                                                <li><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                            </ul>
+                                            </div>
+                                            <div class="show-offer-product-content">
+                                            <p class="second-para">
+                                                Eyeshadow T20 coiger
+                                            </p>
+                                            <p class="rate">
+                                                $30.00
+                                            </p>
+                                            </div>
+                                        </div>
+                                        <div class="product-view">
+                                            <div class="offer-images">
+                                            <img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/8.4.jpg?v=1592041611" class="product-img-link"/>
+                                            </div>
+                                            <div class="hide-offer-product-content">
+                                            <p class="product-para">
+                                                Sale
+                                            </p>
+                                            <h4 class="product-head">
+                                                Quick View
+                                            </h4>
+                                            <ul class="product-menu">
+                                                <li><a href="#"><img src="bag-dash .svg"/></a></li><br>
+                                                <li><a href="#"><img src="heart-1.svg"/></a></li><br>
+                                                <li><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                            </ul>
+                                            </div>
+                                            <div class="show-offer-product-content">
+                                                <p class="second-para">
+                                                Eyeshadow T20 coiger
+                                                </p>
+                                                <p class="rate">
+                                                $30.00
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="product-view">
+                                            <div class="offer-images">
+                                            <img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/8.4.jpg?v=1592041611" class="product-img-link"/>
+                                            </div>
+                                            <div class="hide-offer-product-content">
+                                            <p class="product-para">
+                                                Sale
+                                            </p>
+                                            <h4 class="product-head">
+                                                Quick View
+                                            </h4>
+                                            <ul class="product-menu">
+                                                <li><a href="#"><img src="bag-dash .svg"/></a></li><br>
+                                                <li><a href="#"><img src="heart-1.svg"/></a></li><br>
+                                                <li><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                            </ul>
+                                            </div>
+                                            <div class="show-offer-product-content">
+                                                <p class="second-para">
+                                                Eyeshadow T20 coiger
+                                                </p>
+                                                <p class="rate">
+                                                $30.00
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                           </div>
+                       </div>
+                   </section>
+               </div>
+               <footer>
+                <div class="footer-section container">
+                    <div class="footer-area check-floats">
+                        <div class="footer-content">
+                            <h5 class="footer-heading">FREE SHIPING</h5>
+                            <p class="footer-para">
+                                Free shiping on all US or order above $100.
+                            </p>
+                        </div>
+                        <div class="footer-content">
+                         <h5 class="footer-heading">FREE SHIPING</h5>
+                         <p class="footer-para">
+                             Free shiping on all US or order above $100.
+                         </p>
+                     </div>
+                     <div class="footer-content">
+                         <h5 class="footer-heading">FREE SHIPING</h5>
+                         <p class="footer-para">
+                             Free shiping on all US or order above $100.
+                         </p>
+                     </div>
+                     <div class="footer-content">
+                         <h5 class="footer-heading">FREE SHIPING</h5>
+                         <p class="footer-para">
+                             Free shiping on all US or order above $100.
+                         </p>
+                     </div>
+                    </div>
+                </div>
+            </footer>
+           </section>
+        </div>
+        <script>
+           
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+              var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                  myDropdown.classList.remove('show');
+                }
+              }
+            }
+        </script>
+    </body>
+</html>

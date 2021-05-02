@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box
+}
+body {
+    font-family: Verdana, sans-serif;
+    margin:0
+}
+.main-content {
+    margin-bottom: 110px;
+}
+.container-fluid {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container-big {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.product-filter-area {
+  width: 28%;
+  float: left;
+}
+
+.product-view-area {
+    width: 70%;
+    float: left;
+    margin-left: 22px;
+}
+.navigation-menu {
+    margin-top: 20px;
+}
+.brand-name {
+    padding-top: 5px;
+    width: 20%;
+    float: left;
+}
+
+.dropbtn {
+    border: none;
+    background-color: transparent;
+}
+.dropbtn:hover {
+    color: #e2b104de;
+    transition: 0.5s;
+}
+.navigation-links-info {
+    width: 50%;
+    float: left;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .show {
+    display: block;
+  }
+
+  .navbar-link {
+      float: left;
+      list-style-type: none;
+      margin-right: 20px;
+  }
+
+.brand-img {
+    width: 60%;
+}
+.review-links {
+    text-align: end;
+}
+.review-icon{
+    list-style-type: none;
+    width: fit-content;
+    display: inline-block;
+    padding-left: 22px;
+}
+.review-icon a img {
+    height: 18px;
+}
+.price {
+    padding-left: 10px;
+}
+
+.form-control {
+    width: 235px;
+    height: 31px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.search-button {
+    padding: 8px 14px;
+    margin-left: -4px;
+    background-color: #e2b104de;
+    border: none;
+    font-weight: 600;
+}
+.navigation-icons {
+    width: 30%;
+    float: left;
+}
+.product-brand {
+    width: 40%;
+    float: left;
+  }
+  .products-links{
+    text-align: end;
+    width: 60%;
+    float: left;
+  }
+  .link-container {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 10px;
+    font-weight: 600;
+    color: black;
+  }
+  .link-container:hover{
+    color: #e2b104de;
+    transition: 0.5s;
+  }
+  .icon-img-link {
+      background-color: #e2b104de;
+      padding: 5px 6px 2px 5px;
+  }
+  .icon-img-link:hover {
+    color: #ffffff;
+    transition: 0.5s;
+  }
+  .product-img-section {
+    margin-top: 30px;
+  }
+  .product-view {
+    width: 25%;
+    float: left;
+    position: relative;
+  }
+  .second-para {
+    font-size: 13px;
+    font-weight: 600;
+    color: gray;
+  }
+  .rate {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .product-menu{
+    padding: 0px;
+  }
+  .product-menu li {
+    list-style-type: none;
+  }
+  .offer-images {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .product-img-link {
+      width: 100%;
+  }
+  .show-offer-product-content {
+    text-align: center;
+  }
+  .product-head {
+    width: 94%;
+      height: 37px;
+      position: absolute;
+      bottom: 60px;
+      text-align: center;
+      background-color: black;
+      color: aliceblue;
+      padding-top: 9px;
+      margin-left: 7px;
+      display: none;
+  }
+  .product-para {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    display: inline-block;
+    padding: 0px 10px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    font-weight: 550;
+    color: black;
+  }
+  .product-menu {
+    position: absolute;
+    top: 0px;
+    left: 160px;
+    display: none;
+  }
+  .product-view:hover .product-head {
+    transition: 2s;
+    display: block;
+  }
+  .product-view:hover .product-menu{
+    transition: 2s;
+    display: block;
+   
+  }
+  .product-type {
+    width: 32%;
+    float: left;
+    border: 1px solid grey;
+    margin: 10px 7px 14px 7px;
+  }
+  .product-image {
+    width: 45%;
+    float: left;
+    margin: 15px 9px;
+  }
+  
+  .footer-content {
+      width: 15%;
+      float: left;
+      margin-left: 64px;
+      margin-right: 64px;
+  }
+  form label {
+    list-style-type: none;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 14px;
+    color: grey;
+  }
+  .footer-heading {
+    margin-bottom: 12px;
+  }
+  .footer-para {
+    list-style-type: none;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 22px;
+    color: grey;
+  }
+  .product-website-img-div {
+      margin-top: 20px;
+  }
+  .product-website-img {
+      width: 100%;
+      height: 350px;
+  }
+.check-floats:after {
+    content: "";
+    display: table;
+    clear: both;
+}

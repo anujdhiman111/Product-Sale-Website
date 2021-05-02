@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Product Sale Website
+        </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="Product-Dashboard.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" 
+        crossorigin="anonymous" />
+    </head>
+    <body>
+        <div class="content-body">
+            <section>
+                <div class="search-section">
+                    <div class="container-fluid">
+                        <div class="navigation-menu check-floats">
+                            <nav class="navigation-bar">
+                                <div class="brand-name float-prop">
+                                    <a href="#" target="blank" class="website-brand">
+                                        <img src="cerato.jpeg" class="brand-img"/>
+                                    </a>
+                                </div>
+                                <div class="form-bar float-prop">
+                                    <form>
+                                        <div class="search-bar">
+                                            <input type="text" class="form-control"
+                                            placeholder="Search for product..." name="search">
+                                            <button type="submit" class="search-button">Search</button>
+                                        </div> 
+                                    </form>
+                                </div>
+                                <div class="navigation-icons float-prop">
+                                    <ul class="review-links check-floats">
+                                        <li class="review-icon"><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                        <li class="review-icon"><a href="#"><img src="heart-1.svg"/></a></li>
+                                        <li class="review-icon"><a href="#"><img src="bag-dash .svg"/></a><span class="price"><b>$0.00</b></span></li>
+                                      </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <section class="navigation-section">
+                    <div class="container-fluid">
+                        <div class="main-nevigation-menu check-floats">
+                            <nav class="main-navBar check-floats">
+                                <div class="main-brand-name float-prop">
+                                    <a class="brand-logo" href="#">WebSiteName</a>
+                                </div>                                               
+                                <div class="navigation-links-info float-prop">
+                                    <ul class="check-floats">
+                                        <li class="navbar-link">
+                                            <div class="dropdown">
+                                                <button class="dropbtn" onclick="myFunction()">HOME
+                                                  <i class="fa fa-caret-down"></i>
+                                                </button>
+                                                <div class="dropdown-content" id="myDropdown">
+                                                  <a href="#">Link 1</a>
+                                                  <a href="#">Link 2</a>
+                                                  <a href="#">Link 3</a>
+                                                </div>
+                                                </div> 
+                                        </li>
+                                        <li class="navbar-link">
+                                            <div class="dropdown">
+                                                <button class="dropbtn" onclick="myFunction()">SHOP
+                                                  <i class="fa fa-caret-down"></i>
+                                                </button>
+                                                <div class="dropdown-content" id="myDropdown1">
+                                                  <a href="#">Link 1</a>
+                                                  <a href="#">Link 2</a>
+                                                  <a href="#">Link 3</a>
+                                                </div>
+                                                </div> 
+                                        </li>
+                                        <li class="navbar-link">
+                                            <button class="dropbtn">BLOG</button>
+                                        </li>
+                                        <li class="navbar-link">
+                                            <div class="dropdown">
+                                                <button class="dropbtn" onclick="myFunction()">PAGES
+                                                  <i class="fa fa-caret-down"></i>
+                                                </button>
+                                                <div class="dropdown-content" id="myDropdown2">
+                                                  <a href="#">Link 1</a>
+                                                  <a href="#">Link 2</a>
+                                                  <a href="#">Link 3</a>
+                                                </div>
+                                                </div> 
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="purchase-link float-prop">
+                                    <a class="purchase-theme" href="#">Purchase Theme</a>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </section>
+                <section class="carousel-section">
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                          <img src="slideshow-v1.webp" style="width:100%">
+                          <div class="text"></div>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <img src="slideshow-v2.webp" style="width:100%">
+                          <div class="text"></div>
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        
+                    </div>
+                    <br>
+                    
+                    <div class="slide-indicator">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                    </div>
+                </section>
+                <section class="New-Product-Section">
+                    <div class="show-product container">
+                        <div class="product-info-box check-floats">
+                            <div class="products float-prop">
+                                <div class="product-img">
+                                    <a href="#" class="product-link"><img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/7.1.jpg?v=1592041363" class="product-img-link"/></a>
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="">NEW SEASON</h4>
+                                    <p class="">More style, More color</p>
+                                    <div class="btn-info-div">
+                                        <button type="submit" class="search-button shop-btn">Shop Now</button>
+                                    </div>
+                               </div>
+                            </div>
+                            <div class="products float-prop">
+                                <div class="product-img">
+                                    <a href="#" class="product-link"><img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/7.1.jpg?v=1592041363" class="product-img-link"/></a>
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="">COSMETIC</h4>
+                                    <h3 class=""><b>& SKINCARE</b></h3>
+                                    <div class="btn-info-div">
+                                        <button type="submit" class="search-button shop-btn">Shop Now</button>
+                                    </div>
+                               </div>
+                            </div>
+                            <div class="products float-prop">
+                                <div class="product-img">
+                                    <a href="#" class="product-link"><img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/7.1.jpg?v=1592041363" class="product-img-link"/></a>
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="">JEWELRY SET</h4>
+                                    <p class="">Save to 40% off</p>
+                                    <div class="btn-info-div">
+                                        <button type="submit" class="search-button shop-btn">Shop Now</button>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="product-offer-section">
+                    <div class="product-navbar">
+                        <div class="container">
+                            <nav class="product-navbar-section check-floats">
+                                <div class="product-brand">
+                                    <h4 class="brand-heading">
+                                        What We Offer
+                                    </h4>
+                                </div>
+                                <div class="products-links">
+                                    <ul class="links-info-cont">
+                                        <a href="#"><li class="link-container">Featured</li></a>
+                                        <a href="#"><li class="link-container">New Arrivals</li></a>
+                                        <a href="#"><li class="link-container"> On Sale</li></a>
+                                        <a href="#"><li class="link-container"> Best Seller</li></a>
+                                        <a href="#"><li class="link-container">Top Rate</li></a>
+                                        <li class="link-container icon-img-link"><a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left arrow-icon" viewbox="0 0 16 16">
+                                          <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                                        </svg></a></li>
+                                        <li class="link-container icon-img-link"><a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right arrow-icon" viewbox="0 0 16 16">
+                                          <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        </svg></a></li>
+                                      </ul>
+                                </div>
+                            </nav>
+                            <div class="product-img-section">
+                                <div class="product-offer check-floats">
+                                    <div class="product-view">
+                                        <div class="offer-images">
+                                          <img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/8.4.jpg?v=1592041611" class="product-img-link"/>
+                                        </div>
+                                        <div class="hide-offer-product-content">
+                                          <p class="product-para">
+                                            Sale
+                                          </p>
+                                          <h4 class="product-head">
+                                            Quick View
+                                          </h4>
+                                          <ul class="product-menu">
+                                            <li><a href="#"><img src="bag-dash .svg"/></a></li><br>
+                                            <li><a href="#"><img src="heart-1.svg"/></a></li><br>
+                                            <li><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                          </ul>
+                                        </div>
+                                        <div class="show-offer-product-content">
+                                          <p class="second-para">
+                                            Eyeshadow T20 coiger
+                                          </p>
+                                          <p class="rate">
+                                            $30.00
+                                          </p>
+                                        </div>
+                                    </div>
+                                    <div class="product-view">
+                                        <div class="offer-images">
+                                          <img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/8.4.jpg?v=1592041611" class="product-img-link"/>
+                                        </div>
+                                        <div class="hide-offer-product-content">
+                                          <p class="product-para">
+                                            Sale
+                                          </p>
+                                          <h4 class="product-head">
+                                            Quick View
+                                          </h4>
+                                          <ul class="product-menu">
+                                            <li><a href="#"><img src="bag-dash .svg"/></a></li><br>
+                                            <li><a href="#"><img src="heart-1.svg"/></a></li><br>
+                                            <li><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                          </ul>
+                                        </div>
+                                        <div class="show-offer-product-content">
+                                          <p class="second-para">
+                                            Eyeshadow T20 coiger
+                                          </p>
+                                          <p class="rate">
+                                            $30.00
+                                          </p>
+                                        </div>
+                                    </div>
+                                    <div class="product-view">
+                                        <div class="offer-images">
+                                          <img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/8.4.jpg?v=1592041611" class="product-img-link"/>
+                                        </div>
+                                        <div class="hide-offer-product-content">
+                                          <p class="product-para">
+                                            Sale
+                                          </p>
+                                          <h4 class="product-head">
+                                            Quick View
+                                          </h4>
+                                          <ul class="product-menu">
+                                            <li><a href="#"><img src="bag-dash .svg"/></a></li><br>
+                                            <li><a href="#"><img src="heart-1.svg"/></a></li><br>
+                                            <li><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                          </ul>
+                                        </div>
+                                        <div class="show-offer-product-content">
+                                          <p class="second-para">
+                                            Eyeshadow T20 coiger
+                                          </p>
+                                          <p class="rate">
+                                            $30.00
+                                          </p>
+                                        </div>
+                                    </div>
+                                    <div class="product-view">
+                                        <div class="offer-images">
+                                          <img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/8.4.jpg?v=1592041611" class="product-img-link"/>
+                                        </div>
+                                        <div class="hide-offer-product-content">
+                                          <p class="product-para">
+                                            Sale
+                                          </p>
+                                          <h4 class="product-head">
+                                            Quick View
+                                          </h4>
+                                          <ul class="product-menu">
+                                            <li><a href="#"><img src="bag-dash .svg"/></a></li><br>
+                                            <li><a href="#"><img src="heart-1.svg"/></a></li><br>
+                                            <li><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                          </ul>
+                                        </div>
+                                        <div class="show-offer-product-content">
+                                          <p class="second-para">
+                                            Eyeshadow T20 coiger
+                                          </p>
+                                          <p class="rate">
+                                            $30.00
+                                          </p>
+                                        </div>
+                                    </div>
+                                    <div class="product-view">
+                                        <div class="offer-images">
+                                          <img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/8.4.jpg?v=1592041611" class="product-img-link"/>
+                                        </div>
+                                        <div class="hide-offer-product-content">
+                                          <p class="product-para">
+                                            Sale
+                                          </p>
+                                          <h4 class="product-head">
+                                            Quick View
+                                          </h4>
+                                          <ul class="product-menu">
+                                            <li><a href="#"><img src="bag-dash .svg"/></a></li><br>
+                                            <li><a href="#"><img src="heart-1.svg"/></a></li><br>
+                                            <li><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                          </ul>
+                                        </div>
+                                        <div class="show-offer-product-content">
+                                            <p class="second-para">
+                                              Eyeshadow T20 coiger
+                                            </p>
+                                            <p class="rate">
+                                              $30.00
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="categories-section">
+                    <div class="top-categories">
+                        <div class="container">
+                            <div class="product-categories check-floats">
+                                <div class="product-brand-div">
+                                    <h4 class="brand-heading">
+                                      Top Categories This Week 
+                                    </h4>
+                                </div>
+                                <div class="product-type check-floats">
+                                    <div class="product-image">
+                                        <img src="product.jpg" class="image-view"/>
+                                    </div>
+                                    <div class="product-quality-info">
+                                        <ul>
+                                            <li class="list-head">
+                                                  COSMETIC
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                <a href="" class="">Shop All</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-type check-floats">
+                                    <div class="product-image">
+                                        <img src="product.jpg" class="image-view"/>
+                                    </div>
+                                    <div class="product-quality-info">
+                                        <ul>
+                                            <li class="list-head">
+                                                  COSMETIC
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                <a href="" class="">Shop All</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-type check-floats">
+                                    <div class="product-image">
+                                        <img src="product.jpg" class="image-view"/>
+                                    </div>
+                                    <div class="product-quality-info">
+                                        <ul>
+                                            <li class="list-head">
+                                                  COSMETIC
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                <a href="" class="">Shop All</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-type check-floats">
+                                    <div class="product-image">
+                                        <img src="product.jpg" class="image-view"/>
+                                    </div>
+                                    <div class="product-quality-info">
+                                        <ul>
+                                            <li class="list-head">
+                                                  COSMETIC
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                <a href="" class="">Shop All</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-type check-floats">
+                                    <div class="product-image">
+                                        <img src="product.jpg" class="image-view"/>
+                                    </div>
+                                    <div class="product-quality-info">
+                                        <ul>
+                                            <li class="list-head">
+                                                  COSMETIC
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                <a href="" class="">Shop All</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-type check-floats">
+                                    <div class="product-image">
+                                        <img src="product.jpg" class="image-view"/>
+                                    </div>
+                                    <div class="product-quality-info">
+                                        <ul>
+                                            <li class="list-head">
+                                                  COSMETIC
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                Alternators
+                                            </li>
+                                            <li class="product-item">
+                                                <a href="" class="">Shop All</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="parallax-section">
+                <div class="parallax-container">
+                    <div class="parallax-image">
+                      <div class="parallax-content">
+                          <h3 class="discount-week">
+                              DISCOUNT ON WEEK
+                          </h3>
+                          <h1 class="summer-season">
+                              End Summer Season
+                          </h1>
+                          <p class="summer-sale">
+                            Sale up to 50% & Free shiping
+                          </p>
+                          <button type="submit" class="search-button shop-product">Shop All Products</button>
+                      </div>
+                    </div> 
+                </div>
+            </section>
+            <section>
+              <section class="product-offer-section editor-picked-product">
+                <div class="product-navbar">
+                    <div class="container">
+                        <nav class="product-navbar-section check-floats">
+                            <div class="product-brand">
+                                <h4 class="brand-heading">
+                                   Editor Pick
+                                </h4>
+                            </div>
+                            <div class="products-links">
+                                <ul class="links-info-cont">
+                                    <a href="#"><li class="link-container"> Clothes</li></a>
+                                    <a href="#"><li class="link-container"> Cosmetic</li></a>
+                                    <a href="#"><li class="link-container">Jewellery</li></a>
+                                    <li class="link-container icon-img-link"><a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left arrow-icon" viewbox="0 0 16 16">
+                                      <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                                    </svg></a></li>
+                                    <li class="link-container icon-img-link"><a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right arrow-icon" viewbox="0 0 16 16">
+                                      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                    </svg></a></li>
+                                  </ul>
+                            </div>
+                        </nav>
+                        <div class="product-img-section editor-pick-img">
+                            <div class="product-offer check-floats">
+                                <div class="product-view"> 
+                                    <div class="offer-images">
+                                      <img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/8.4.jpg?v=1592041611" class="product-img-link"/>
+                                    </div>
+                                    <div class="hide-offer-product-content">
+                                      <p class="product-para">
+                                        Sale
+                                      </p>
+                                      <h4 class="product-head">
+                                        Quick View
+                                      </h4>
+                                      <ul class="product-menu">
+                                        <li><a href="#"><img src="bag-dash .svg"/></a></li><br>
+                                        <li><a href="#"><img src="heart-1.svg"/></a></li><br>
+                                        <li><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="show-offer-product-content">
+                                      <p class="second-para">
+                                        Eyeshadow T20 coiger
+                                      </p>
+                                      <p class="rate">
+                                        $30.00
+                                      </p>
+                                    </div>
+                                </div>
+                                <div class="product-view">
+                                    <div class="offer-images">
+                                      <img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/8.4.jpg?v=1592041611" class="product-img-link"/>
+                                    </div>
+                                    <div class="hide-offer-product-content">
+                                      <p class="product-para">
+                                        Sale
+                                      </p>
+                                      <h4 class="product-head">
+                                        Quick View
+                                      </h4>
+                                      <ul class="product-menu">
+                                        <li><a href="#"><img src="bag-dash .svg"/></a></li><br>
+                                        <li><a href="#"><img src="heart-1.svg"/></a></li><br>
+                                        <li><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="show-offer-product-content">
+                                      <p class="second-para">
+                                        Eyeshadow T20 coiger
+                                      </p>
+                                      <p class="rate">
+                                        $30.00
+                                      </p>
+                                    </div>
+                                </div>
+                                <div class="product-view">
+                                    <div class="offer-images">
+                                      <img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/8.4.jpg?v=1592041611" class="product-img-link"/>
+                                    </div>
+                                    <div class="hide-offer-product-content">
+                                      <p class="product-para">
+                                        Sale
+                                      </p>
+                                      <h4 class="product-head">
+                                        Quick View
+                                      </h4>
+                                      <ul class="product-menu">
+                                        <li><a href="#"><img src="bag-dash .svg"/></a></li><br>
+                                        <li><a href="#"><img src="heart-1.svg"/></a></li><br>
+                                        <li><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="show-offer-product-content">
+                                      <p class="second-para">
+                                        Eyeshadow T20 coiger
+                                      </p>
+                                      <p class="rate">
+                                        $30.00
+                                      </p>
+                                    </div>
+                                </div>
+                                <div class="product-view">
+                                    <div class="offer-images">
+                                      <img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/8.4.jpg?v=1592041611" class="product-img-link"/>
+                                    </div>
+                                    <div class="hide-offer-product-content">
+                                      <p class="product-para">
+                                        Sale
+                                      </p>
+                                      <h4 class="product-head">
+                                        Quick View
+                                      </h4>
+                                      <ul class="product-menu">
+                                        <li><a href="#"><img src="bag-dash .svg"/></a></li><br>
+                                        <li><a href="#"><img src="heart-1.svg"/></a></li><br>
+                                        <li><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="show-offer-product-content">
+                                      <p class="second-para">
+                                        Eyeshadow T20 coiger
+                                      </p>
+                                      <p class="rate">
+                                        $30.00
+                                      </p>
+                                    </div>
+                                </div>
+                                <div class="product-view">
+                                    <div class="offer-images">
+                                      <img src="https://cdn.shopify.com/s/files/1/0411/0660/4200/products/8.4.jpg?v=1592041611" class="product-img-link"/>
+                                    </div>
+                                    <div class="hide-offer-product-content">
+                                      <p class="product-para">
+                                        Sale
+                                      </p>
+                                      <h4 class="product-head">
+                                        Quick View
+                                      </h4>
+                                      <ul class="product-menu">
+                                        <li><a href="#"><img src="bag-dash .svg"/></a></li><br>
+                                        <li><a href="#"><img src="heart-1.svg"/></a></li><br>
+                                        <li><a href="#"><img src="arrow-left-right.svg"/></a></li>
+                                      </ul>
+                                    </div>
+                                    <div class="show-offer-product-content">
+                                        <p class="second-para">
+                                          Eyeshadow T20 coiger
+                                        </p>
+                                        <p class="rate">
+                                          $30.00
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="review-section">
+                <div class="user-rating">
+                    <div class="container">
+                      <div class="section-heading">
+                          <h1>Customes Reviews</h1>
+                      </div>
+                      <div class="check-floats responsive">
+                          <div class="customer-review">
+                            <div class="review-container">
+                                <div class="check-floats">
+                                    <div class="user-img-icon">
+                                        <img src = "#" class="user-img"/>
+                                    </div>
+                                    <div class="user-name-tag">
+                                        <h5 class="user-name">
+                                            Mary Sillinton
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="user-review">
+                                    <p class="user-review-para">
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit lacus sed hendrerit laoreet.
+                                      In pellentesque sodales pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                                      posuere cubilia curae; Nunc consectetur pulvinar ipsum, eu condimentum elit consectetur id.
+                                      Nulla dolor dolor, egestas et tempor vel, congue non lectus.
+                                    </p>
+                                </div>
+                            </div>
+                          </div>
+
+                          <div class="customer-review">
+                            <div class="review-container">
+                                <div class="check-floats">
+                                    <div class="user-img-icon">
+                                        <img src = "#" class="user-img"/>
+                                    </div>
+                                    <div class="user-name-tag">
+                                        <h5 class="user-name">
+                                            Mary Sillinton
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="user-review">
+                                    <p class="user-review-para">
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit lacus sed hendrerit laoreet.
+                                      In pellentesque sodales pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                                      posuere cubilia curae; Nunc consectetur pulvinar ipsum, eu condimentum elit consectetur id.
+                                      Nulla dolor dolor, egestas et tempor vel, congue non lectus.
+                                    </p>
+                                </div>
+                            </div>
+                          </div>
+
+                          <div class="customer-review">
+                            <div class="review-container">
+                                <div class="check-floats">
+                                    <div class="user-img-icon">
+                                        <img src = "#" class="user-img"/>
+                                    </div>
+                                    <div class="user-name-tag">
+                                        <h5 class="user-name">
+                                            Mary Sillinton
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="user-review">
+                                    <p class="user-review-para">
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit lacus sed hendrerit laoreet.
+                                      In pellentesque sodales pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                                      posuere cubilia curae; Nunc consectetur pulvinar ipsum, eu condimentum elit consectetur id.
+                                      Nulla dolor dolor, egestas et tempor vel, congue non lectus.
+                                    </p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="customer-review">
+                            <div class="review-container">
+                                <div class="check-floats">
+                                    <div class="user-img-icon">
+                                        <img src = "#" class="user-img"/>
+                                    </div>
+                                    <div class="user-name-tag">
+                                        <h5 class="user-name">
+                                            Mary Sillinton
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="user-review">
+                                    <p class="user-review-para">
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit lacus sed hendrerit laoreet.
+                                      In pellentesque sodales pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                                      posuere cubilia curae; Nunc consectetur pulvinar ipsum, eu condimentum elit consectetur id.
+                                      Nulla dolor dolor, egestas et tempor vel, congue non lectus.
+                                    </p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="customer-review">
+                            <div class="review-container">
+                                <div class="check-floats">
+                                    <div class="user-img-icon">
+                                        <img src = "#" class="user-img"/>
+                                    </div>
+                                    <div class="user-name-tag">
+                                        <h5 class="user-name">
+                                            Mary Sillinton
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="user-review">
+                                    <p class="user-review-para">
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit lacus sed hendrerit laoreet.
+                                      In pellentesque sodales pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                                      posuere cubilia curae; Nunc consectetur pulvinar ipsum, eu condimentum elit consectetur id.
+                                      Nulla dolor dolor, egestas et tempor vel, congue non lectus.
+                                    </p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="customer-review">
+                            <div class="review-container">
+                                <div class="check-floats">
+                                    <div class="user-img-icon">
+                                        <img src = "#" class="user-img"/>
+                                    </div>
+                                    <div class="user-name-tag">
+                                        <h5 class="user-name">
+                                            Mary Sillinton
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="user-review">
+                                    <p class="user-review-para">
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit lacus sed hendrerit laoreet.
+                                      In pellentesque sodales pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                                      posuere cubilia curae; Nunc consectetur pulvinar ipsum, eu condimentum elit consectetur id.
+                                      Nulla dolor dolor, egestas et tempor vel, congue non lectus.
+                                    </p>
+                                </div>
+                                
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="website-footer">
+              <div class="footer-section container-fluid">
+                  
+                  <div class="main-footer-section">
+                      <div class="fotter-section-info">
+                          <div class="check-floats">
+                              
+                            <div class="links-section">
+                              <h3 class="footer-title-heading">Contact Us</h3>
+                              <ul class="links">
+                                  <li class="links-item info">
+                                     Call us<br><b>+0812345667</b>
+                                  </li>
+                                  <li class="links-item info">
+                                     Email us<br><b>hello@gmail.com</b>
+                                  </li>
+                                  <li class="links-item info">
+                                     Follow us
+                                  </li>
+                                 
+                              </ul>
+                            </div>
+                              <div class="links-section">
+                                  <h3 class="footer-title-heading">Best Categoies</h3>
+                                  <ul class="links">
+                                      <li class="links-item info">
+                                        Furniture
+                                      </li>
+                                      <li class="links-item info">
+                                         Wines
+                                      </li>
+                                      <li class="links-item info">
+                                         Organic
+                                      </li>
+                                      <li class="links-item info">
+                                         Kids
+                                      </li>
+                                      <li class="links-item info">
+                                          Ladies
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="links-section">
+                                  <h3 class="footer-title-heading">Useful Links</h3>
+                                  <ul class="links">
+                                      <li class="links-item info">
+                                          My Account
+                                      </li>
+                                      <li class="links-item info">
+                                         Check Out
+                                      </li>
+                                      <li class="links-item info">
+                                         My Cart
+                                      </li>
+                                      <li class="links-item info">
+                                          Privacy Policy
+                                      </li>
+                                      <li class="links-item info">
+                                          Terms & Conditions
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="covid-land-fotter links-section">
+                                <div class="newsletter-title footer-element">
+                                    <h3 class="footer-title-heading">Account</h3>
+                                </div>
+                                <div class="subsricption-div footer-element">
+                                    <p class="info subscription-para">
+                                      Subscribe to our Newsletter and get discount on next purchase.
+                                    </p>
+                                    <input type="email" class="email-input-field" name="email" placeholder="Your email....">
+                                    <button class="primary-button sub-btn">SUBSCRIBE</button>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </footer>
+        </section>
+       
+        </div>
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            $('.responsive').slick({
+          dots: true,
+          infinite: false,
+          speed: 300,
+          slidesToShow: 3,
+          slidesToScroll: 2,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ]
+        });
+        </script>
+        <script>
+           
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+              var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                  myDropdown.classList.remove('show');
+                }
+              }
+            }
+        </script>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+            }
+        </script>
+    </body>
+</html>
