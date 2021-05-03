@@ -532,13 +532,34 @@ img {vertical-align: middle;}
   margin-bottom: 5px;
   padding-top: 5px;
 }
+.text {
+    color: #f2f2f2;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 225px;
+    text-align: inherit;
+    width: 28%;
+    left: 100px;
+    font-family: serif;
+}
+.text-heading-small {
+  font-weight: 500;
+}
+.text-heading-big {
+  font-weight: 600;
+  font-size: xx-large;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.slick-arrow {
+  display: none;
+}
+.email-input-field {
+  padding-left: 10px;
+}
   .check-floats:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.input-field {
-  border: none;
-  border-bottom: 1px solid #000;
-}
